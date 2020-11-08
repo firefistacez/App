@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity4">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number Registration"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="35dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal"
+        android:textSize="35sp"/>
+
+
+    <ImageButton
+        android:id="@+id/fire"
+        android:layout_width="190dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/ic_fire"
+        tools:ignore="VectorDrawableCompat"
+        android:contentDescription="TODO" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIRE"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal"
+        android:textSize="20sp"/>
+
+    <ImageButton
+        android:id="@+id/hospital"
+        android:layout_width="190dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/ic_hospital"
+        tools:ignore="VectorDrawableCompat" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medical"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal"
+        android:textSize="20sp"/>
+
+    <ImageButton
+        android:id="@+id/police"
+        android:layout_width="190dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/ic_police"
+        tools:ignore="VectorDrawableCompat"
+        android:contentDescription="TODO" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POLICE"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="25dp" />
+</LinearLayout>
